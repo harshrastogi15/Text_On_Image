@@ -39,7 +39,22 @@ Place your certificate template in the `certificate` folder and ensure your CSV 
 
 Absolutely, here's the updated part for your README that explains where users can adjust the text placement in the `src/module/WriteOnCertificate.js` file:
 
----
+
+
+## CSV File Format
+
+The CSV file you provide for generating certificates should have two columns: `id` and `name`. The `id` column represents the unique identifier for each certificate, while the `name` column contains the corresponding names for the certificates.
+
+Here's a sample excerpt from the CSV file:
+
+```
+id                           name
+event/name/0001         HARSH RASTOGI
+event/name/0002         Chandan Chandel
+```
+
+Make sure that your CSV file adheres to this format, where the first column is the `id` and the second column is the `name`.
+
 
 ## Customizing Text Placement
 
