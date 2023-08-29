@@ -1,0 +1,16 @@
+{
+  "name": "text_on_image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsh Rastogi",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.3.3",
+    "jimp": "^0.22.10"
+  }
+}
